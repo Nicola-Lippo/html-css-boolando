@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.d-flex {
+    display: flex;
+}
+
+/*  HEADER PROPRIETA' + CLASSI UTILITY */
+
+header {
+    color: white;
+}
+
+#arancione {
+    background-color: orange;
+}
+
+#logo-bool {
+    height: 50px;
+}
+
+/* FINE HEADER PROPRIETA' + CLASSI UTILITY */
+
+/*  MAIN PROPRIETA' + CLASSI UTILITY */
+
+main {
+    padding-top: 40px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.riga { 
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    }
+
+.contenuto {
+    margin: 20px;    
+}
+
+.img-shop {
+    width: 100%;
+}
+
+/* INIZIO PROPRIETA' ELEMENTI DI TESTO */
+
+/* FINE INIZIO PROPRIETA' ELEMENTI DI TESTO */
+
+
+/* FINE MAIN PROPRIETA' + CLASSI UTILITY */
