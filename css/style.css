@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+.container-header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .d-flex {
     display: flex;
 }
@@ -12,9 +22,6 @@
 
 header {
     color: white;
-}
-
-#arancione {
     background-color: orange;
 }
 
@@ -28,10 +35,6 @@ header {
 
 main {
     padding-top: 40px;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .riga { 
@@ -119,6 +122,10 @@ main {
 
 .img-shop:hover .hover-img {
     display: inline;
+}
+
+.cuore:hover {
+    color: red;
 }
 
 /* FINE PROPRIETA' HOVER */
