@@ -107,5 +107,20 @@ main {
 
 /* FINE INIZIO PROPRIETA' ETICHETTE */
 
+/* INIZIO PROPRIETA' HOVER */
+
+.hover-img {
+    display: none;
+}
+
+.img-shop:hover .main-img {
+    display: none;
+}
+
+.img-shop:hover .hover-img {
+    display: inline;
+}
+
+/* FINE PROPRIETA' HOVER */
 
 /* FINE MAIN PROPRIETA' + CLASSI UTILITY */
